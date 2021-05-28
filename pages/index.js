@@ -1,11 +1,10 @@
-import Navigation from '../components/Navigation';
+import Container from '../components/Container';
 
 const Index = () => {
   return (
-    <div>
-      <Navigation />
+    <Container>
       <h1>Index</h1>
-  </div>
+    </Container>
   );
 };
 
