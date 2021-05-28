@@ -8,7 +8,7 @@ const Container = (props) => (
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/superhero/bootstrap.min.css" />
     </Head>
     <Navigation />
-    <div>
+    <div className="container p-4">
       {props.children}
     </div>
   </div>
